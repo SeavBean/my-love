@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contain{
+    font-family:"Archivo Black", sans-serif;
+    text-align: center  ;
+    margin: 10px;
+    background: pink;
+}
+.sad {
+    position: absolute;
+    top:13rem;
+    right: 30px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    font-family: "Vend Sans", sans-serif;
+    text-align: center;
+    
+}
+.options{
+    text-align: center;
+}
+.gif{
+    width: 17rem;
+    
+}
+
+
+
+
+
+@media(max-width: 768px){
+    .sad{
+        position: static;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .contain{
+        font-size: 1.2rem;
+
+    }
+    .text h1{
+        font-size: 1.5rem;
+    }
+    .options button{
+        margin: 5px;
+        width: 45%;
+    }
+
+}
+@media (max-width:480px){
+    .text h1{
+        font-size: 1.2rem;
+    }
+    .gif{
+        max-width: 220px;
+    }
+    .options button{
+        width: 100%;
+        margin: 5px 0;
+    }
+}
